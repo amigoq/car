@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ul, li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right,#FF0101 30%, black 30%);
+    overflow: hidden;
+}
+.header__container{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+.car{
+    display: flex;
+    width: 201px;
+    height: 60px;
+    margin-left: -90px;
+}
+.car__title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 22px;
+    padding-left: 21px;
+}
+.subtitle{
+    display: flex;
+    color: aliceblue;
+    margin-top: 40px;
+}
+.nav__list{
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 55px;
+}
+.nav__item{
+    margin-left: 71px;
+}
+#model{
+    border-bottom: 3px solid #FF0101;
+}
+.info{
+    display: flex;
+    width: 189px;
+    height: 31px;
+    border-bottom: 1px solid white;
+}
+.info__img-wrap{
+    padding-right: 24px;
+}
+.input{
+    background-color: black;
+    border: none;
+    outline: none;
+    color: #A8A8A8;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.content{
+    margin-left: 220px;
+}
+.machine__title{
+    font-weight: 600;
+    font-size: 310px;
+    color: white;
+    margin-left: 165px;
+}
+.machine__img-wrap{
+    margin-top: -391px;
+    margin-left: 150px;
+}
+.machine__img{
+    width: 1200px;
+}
+.footer__info{
+    width: 576px;
+    height: 187px;
+    background-color: #FF3232;
+}
+.footer__p{
+    display: flex;
+    padding-left: 130px;
+    padding-top: 44px;
+}
+.footer__img-wrap{
+    width: 100px;
+    height: 100px;
+}
+.footer__title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+.footer__link{
+    margin-left: 800px;
+    color:#FF0101;
+    width: 443px;
+    height: 38px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+}
